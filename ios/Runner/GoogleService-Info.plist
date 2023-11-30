@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyAjOUCH2uTqvL6Ft03NucZhCq9JxQ0rRTY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>401854165127</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>gomez.joseba.examenjoseba</string>
+	<key>PROJECT_ID</key>
+	<string>examenjoseba</string>
+	<key>STORAGE_BUCKET</key>
+	<string>examenjoseba.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:401854165127:ios:5b29d4f1ecceefb72dc822</string>
+</dict>
+</plist>

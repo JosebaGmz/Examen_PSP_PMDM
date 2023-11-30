@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "401854165127",
+    "project_id": "examenjoseba",
+    "storage_bucket": "examenjoseba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401854165127:android:730e942d68d931d32dc822",
+        "android_client_info": {
+          "package_name": "gomez.joseba.examenjoseba"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCktKJW-wUvbSpMrq4nyHu7iY6mfTMfX24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
