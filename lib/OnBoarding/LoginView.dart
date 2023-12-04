@@ -25,7 +25,8 @@ class LoginView extends StatelessWidget{
           email: tUsername.text,
           password: tPassword.text
       );
-      print("----LOGIN CORRECTO----");
+
+      print("----LOGEADO----");
 
       String uid=FirebaseAuth.instance.currentUser!.uid;
       DocumentSnapshot<Map<String, dynamic>> datos=await db.collection("Usuarios").doc(uid).get();
@@ -57,8 +58,8 @@ class LoginView extends StatelessWidget{
 
       Row(mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          TextButton(onPressed: onClickAceptar, child: Text("Aceptar"),),
-          TextButton(onPressed: onClickRegistrar, child: Text("Registrarse Aqui"),)
+          TextButton(onPressed: onClickAceptar, child: Text("Iniciar Sesion"),),
+          TextButton(onPressed: onClickRegistrar, child: Text("Registrate Aqui"),)
         ],)
 
     ],);
