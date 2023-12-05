@@ -2,6 +2,7 @@ import 'dart:io';
 
 
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:examenjoseba/Custom/CButton.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import '../Custom/CTextF.dart';
@@ -58,8 +59,8 @@ class LoginView extends StatelessWidget{
 
       Row(mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          TextButton(onPressed: onClickAceptar, child: Text("Iniciar Sesion"),),
-          TextButton(onPressed: onClickRegistrar, child: Text("Registrate Aqui"),)
+          CButton(text: "Iniciar Sesion", onPressed: onClickAceptar),
+          CButton(text: "Registrarse Aqui", onPressed: onClickRegistrar)
         ],)
 
     ],);

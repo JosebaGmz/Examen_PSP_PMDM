@@ -16,7 +16,7 @@ class MenuBottom extends StatelessWidget{
         children: [
           TextButton(onPressed: () => onButtonClicked!(0), child: Icon(Icons.list,color: Colors.black,)),
           TextButton(onPressed: () => onButtonClicked!(1), child: Icon(Icons.grid_view,color: Colors.black,)),
-          IconButton(onPressed: () => onButtonClicked!(2), icon: Image.asset(""))
+          IconButton(onPressed: () => onButtonClicked!(2), icon: Image.asset("../assets/img/logo_examen.png"))
         ]
     );
   }
