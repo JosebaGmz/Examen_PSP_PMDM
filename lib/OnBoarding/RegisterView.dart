@@ -1,3 +1,4 @@
+import 'package:examenjoseba/Custom/CButton.dart';
 import 'package:examenjoseba/Custom/CTextF.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -69,8 +70,8 @@ class RegisterView extends StatelessWidget{
 
       Row(mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          TextButton(onPressed: onClickAceptar, child: Text("Aceptar"),),
-          TextButton( onPressed: onClickCancelar, child: Text("Cancelar"),)
+          CButton(text: "Aceptar", onPressed: onClickAceptar),
+          CButton(text: "Cancelar", onPressed: onClickCancelar)
         ],)
 
 
@@ -79,8 +80,8 @@ class RegisterView extends StatelessWidget{
     AppBar appBar = AppBar(
       title: const Text('Registrarse'),
       centerTitle: true,
-      shadowColor: Colors.pink,
-      backgroundColor: Colors.greenAccent,
+      shadowColor: Colors.white,
+      backgroundColor: Colors.black,
     );
 
     Scaffold scaf=Scaffold(body: columna,

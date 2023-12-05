@@ -1,6 +1,18 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
-class HomeView extends StatelessWidget{
+import '../FireStoreObjects/FbPosts.dart';
+
+class HomeView extends StatefulWidget{
+
+  @override
+  State<HomeView> createState() => _HomeViewState();
+}
+
+class _HomeViewState extends State<HomeView>{
+
+  FirebaseFirestore db =FirebaseFirestore.instance;
+  final List<FbPosts> posts = [];
 
   @override
   Widget build(BuildContext context) {

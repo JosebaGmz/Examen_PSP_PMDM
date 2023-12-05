@@ -74,7 +74,7 @@ class LoginView extends StatelessWidget{
 
     Scaffold scaf = Scaffold(body: columna,
       appBar: appBar,
-      bottomNavigationBar: MenuBottom(onButtonClicked: onBottonMenuPressed),
+     // bottomNavigationBar: MenuBottom(onButtonClicked: onBottonMenuPressed),
     );
 
     return scaf;

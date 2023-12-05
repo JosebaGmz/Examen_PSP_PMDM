@@ -1,4 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:examenjoseba/Custom/CButton.dart';
 import 'package:examenjoseba/Custom/CTextF.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -58,8 +59,8 @@ class PerfilView extends StatelessWidget{
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                TextButton(onPressed: onClickAceptar, child: Text("Aceptar"),),
-                TextButton( onPressed: onClickCancelar, child: Text("Cancelar"),)
+                CButton(text: "Aceptar", onPressed: onClickAceptar),
+                CButton(text: "Cancelar", onPressed: onClickCancelar)
               ],
             )
           ],
