@@ -36,4 +36,5 @@ class DataHolder{
     prefs.setString('fbposts_descripcion', postSelected!.descripcion);
     prefs.setString('fbposts_imgUrl', postSelected!.imgUrl);
   }
+
 }

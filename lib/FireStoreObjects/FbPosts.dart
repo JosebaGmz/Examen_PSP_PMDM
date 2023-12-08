@@ -27,7 +27,7 @@ class FbPosts{
   Map<String, dynamic> toFirestore() {
     return {
       if (titulo != null) "titulo": titulo,
-      if (descripcion != null) "cuerpo": descripcion,
+      if (descripcion != null) "descripcion": descripcion,
       if (imgUrl != null) "imgUrl": imgUrl
     };
   }
