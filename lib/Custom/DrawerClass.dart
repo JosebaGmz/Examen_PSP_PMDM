@@ -40,6 +40,13 @@ class DrawerClass extends StatelessWidget{
               onItemTap!(1);
             },
           ),
+          ListTile(
+            leading: Icon(Icons.settings, color: Colors.red),
+            title: const Text('Ajustes'),
+            onTap: () {
+              Navigator.of(context).pushNamed("/gestionview");;
+            },
+          ),
         ],
       ),
     );
