@@ -1,4 +1,5 @@
 import 'package:examenjoseba/Home/HomeView.dart';
+import 'package:examenjoseba/Home/PostView.dart';
 import 'package:examenjoseba/OnBoarding/PerfilView.dart';
 import 'package:examenjoseba/OnBoarding/SplashView.dart';
 import 'package:flutter/material.dart';
@@ -19,6 +20,7 @@ class MyApp extends StatelessWidget{
         '/splashview':(context) => SplashView(),
         '/homeview':(context) => HomeView(),
         '/perfilview':(context) => PerfilView(),
+        '/postview':(context) => PostView()
       },
       initialRoute: '/loginview',
       debugShowCheckedModeBanner: false,
