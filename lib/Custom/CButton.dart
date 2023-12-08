@@ -10,7 +10,7 @@ class CButton extends StatelessWidget {
     Key? key,
     required this.text,
     required this.onPressed,
-    this.paddingH = 65,
+    this.paddingH = 20,
     this.paddingV = 20,
   }) : super(key: key);
 

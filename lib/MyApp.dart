@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget{
         '/homeview':(context) => HomeView(),
         '/perfilview':(context) => PerfilView(),
       },
-      initialRoute: '/splashview',
+      initialRoute: '/loginview',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(fontFamily: 'PlayfairDisplay'),
     );
